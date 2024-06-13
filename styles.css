@@ -1,0 +1,319 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.navigation {
+    margin: 0 auto;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.navigation td {
+    padding: 10px 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.navigation a:hover {
+    background-color: #005bab;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.hotel-image {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.room-images {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.room-images td {
+    padding: 10px;
+}
+
+.room-images img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.contact-info {
+    margin-bottom: 1em;
+}
+
+.social-media {
+    margin-top: 0.5em;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.red-words {
+    color: red;
+}
+
+.shadow-box {
+    font-size: 1.2em;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Estilo para el formulario de reserva */
+.reservation-form {
+    width: 100%;
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: auto; /* Centrar el formulario en la página */
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde del formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.reservation-form label {
+    font-weight: bold; /* Texto del label en negrita */
+    display: block; /* Mostrar los labels en bloque */
+    margin-bottom: 5px; /* Espacio inferior entre labels */
+}
+
+.reservation-form input[type="text"],
+.reservation-form input[type="email"],
+.reservation-form input[type="tel"],
+.reservation-form textarea {
+    width: calc(100% - 20px); /* Ancho del input, restando el padding */
+    padding: 10px; /* Espaciado interno */
+    font-size: 1em; /* Tamaño de fuente */
+    border: 1px solid #ddd; /* Borde del input */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espacio inferior entre inputs */
+}
+
+.reservation-form textarea {
+    height: 100px; /* Altura del textarea */
+}
+
+.reservation-form button {
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color de texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 1em; /* Tamaño de fuente */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de tipo puntero */
+}
+
+.reservation-form button:hover {
+    background-color: #45a049; /* Color de fondo más oscuro al pasar el ratón */
+}
+
+/* Estilo para el formulario en dispositivos móviles */
+@media screen and (max-width: 600px) {
+    .reservation-form {
+        padding: 10px; /* Reducir el espaciado en dispositivos móviles */
+    }
+}
+/* Estilos para los restaurantes */
+.restaurant {
+    margin-bottom: 30px; /* Espacio inferior entre restaurantes */
+}
+
+.restaurant img {
+    width: 100%; /* Imagen ocupa el ancho completo del contenedor */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.restaurant p {
+    margin-top: 10px; /* Espacio superior para la descripción */
+    font-size: 0.9em; /* Tamaño de fuente más pequeño */
+    color: #666; /* Color de texto gris */
+}
+
+/* Estilo para el cuadro de sombra roja */
+.red-shadow {
+    background-color: #f44336; /* Color de fondo rojo */
+    color: white; /* Color de texto blanco */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Alineación centrada del texto */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+/* Estilos para la página de servicios */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+table.navigation {
+    width: 100%;
+    background-color: #333;
+}
+
+table.navigation tr {
+    text-align: center;
+}
+
+table.navigation td {
+    padding: 10px;
+}
+
+table.navigation td a {
+    color: white;
+    text-decoration: none;
+}
+
+table.navigation td a:hover {
+    background-color: #575757;
+}
+
+main {
+    padding: 2em;
+}
+
+main h2 {
+    color: #4CAF50;
+}
+
+.service {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    color: #4CAF50;
+    margin-top: 0;
+}
+
+.service p {
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer .contact-info {
+    margin-bottom: 20px;
+}
+
+footer .contact-info p {
+    margin: 0;
+}
+
+footer .social-media {
+    margin-bottom: 10px;
+}
+
+footer .social-media a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
+
+.red-words {
+    color: #f44336;
+    font-weight: bold;
+}
+
+.red-shadow {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
